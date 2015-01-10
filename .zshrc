@@ -139,14 +139,6 @@ export PATH=/usr/local/sbin:$PATH
 export PATH=/usr/local/bin:$PATH
 export HOMEBREW_CASK_OPTS="--appdir=/Applications --caskroom=/usr/local/Caskroom"
 
-# vim
-if [[ -n $SSH_CONNECTION ]];
-then
-   export EDITOR='vim'
-else
-   export EDITOR='mvim'
-fi
-
 # nvm
 if [[ -s ~/.nvm/nvm.sh ]];
 then source ~/.nvm/nvm.sh
