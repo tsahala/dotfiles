@@ -1,0 +1,18 @@
+[user]
+	name = tsahala
+	email = tsahala.shtk1053@gmail.com
+[color]
+	ui = true
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[core]
+	excludesfile = /Users/t_sahara/.gitignore_global
+[alias]
+	co = checkout
+	st = status
+	br = branch
+	cm = commit
