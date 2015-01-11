@@ -144,10 +144,21 @@ if [[ -s ~/.nvm/nvm.sh ]];
 then source ~/.nvm/nvm.sh
 fi
 
-# rvm
-if [[ -s ~/.rvm/scripts/rvm ]];
-then source ~/.rvm/scripts/rvm
-fi
+# rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
 
-# SSH
-export SSL_CERT_FILE=/usr/local/etc/openssl/cert.pemsource
+# rvm
+# if [[ -s ~/.rvm/scripts/rvm ]];
+# then source ~/.rvm/scripts/rvm
+# fi
+
+# SSL
+# export SSL_CERT_FILE=/usr/local/etc/openssl/cert.pemsource
+
+# MacVim
+export EDITOR=/Applications/MacVim.app/Contents/MacOS/Vim
+if [ -f /Applications/MacVim.app/Contents/MacOS/Vim ]; then
+  alias vi='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
+  alias vim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
+fi

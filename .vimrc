@@ -34,6 +34,7 @@ set noerrorbells "エラーメッセージの表示時にビープを鳴らさ�
 set autoread "他で書き換えられたら自動で読み直す
 set nobackup "バックアップファイルを作らない
 set noswapfile "スワップファイルを作らない
+set noundofile "アンドゥファイルを作らない
 set whichwrap=b,s,h,l,<,>,[,]
 set ttyfast " 高速ターミナル接続を行う
 
@@ -84,3 +85,4 @@ filetype indent on
 syntax enable
 
 colorscheme yuroyoro256
+" colorscheme solarized

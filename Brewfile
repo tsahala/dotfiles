@@ -28,6 +28,7 @@ cask install firefox-ja || true
 
 cask install iterm2 || true
 cask install sublime-text3 || true
+cask install macvim-kaoriya || true
 cask install sourcetree || true
 cask install github || true
 
