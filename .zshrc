@@ -151,3 +151,10 @@ fi
 
 # SSH
 export SSL_CERT_FILE=/usr/local/etc/openssl/cert.pemsource
+
+# MacVim
+export EDITOR=/Applications/MaxVim.app/Contents/MacOS/Vim
+if [ -f /Applications/MacVim.app/Contents/MacOS/Vim ]; then
+  alias vi='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
+  alias vim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
+fi

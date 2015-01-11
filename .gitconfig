@@ -16,3 +16,9 @@
 	st = status
 	br = branch
 	cm = commit
+[filter "media"]
+	clean = git-media-clean %f
+  smudge = git-media-smudge %f
+[tig "bind"]
+  generic = g move-first-line
+  generic = G move-last-line

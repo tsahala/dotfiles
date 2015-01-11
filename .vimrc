@@ -84,3 +84,4 @@ filetype indent on
 syntax enable
 
 colorscheme yuroyoro256
+" colorscheme solarized
