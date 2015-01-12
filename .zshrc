@@ -139,10 +139,13 @@ export PATH=/usr/local/sbin:$PATH
 export PATH=/usr/local/bin:$PATH
 export HOMEBREW_CASK_OPTS="--appdir=/Applications --caskroom=/usr/local/Caskroom"
 
+# nodebrew
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+
 # nvm
-if [[ -s ~/.nvm/nvm.sh ]];
-then source ~/.nvm/nvm.sh
-fi
+# if [[ -s ~/.nvm/nvm.sh ]];
+# then source ~/.nvm/nvm.sh
+# fi
 
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
