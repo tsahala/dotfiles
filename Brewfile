@@ -36,7 +36,6 @@ cask install github || true
 
 cask install google-japanese-ime || true
 cask install dropbox || true
-cask install google-drive || true
 cask install appcleaner || true
 cask install transmit || true
 
