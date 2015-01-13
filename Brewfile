@@ -13,10 +13,12 @@ install brew-cask || true
 install zsh || true
 install zsh-completions || true
 install git || true
+install tig || true
 
 install nodebrew || true
 install rbenv || true
 install ruby-build || true
+install rbenv-gem-rehash || true
 
 install openssl || true
 
@@ -44,6 +46,7 @@ cask install vagrant || true
 
 cask install adobe-creative-cloud || true
 cask install slicy || true
+cask install skitch || true
 
 cask install skype || true
 
