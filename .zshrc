@@ -8,10 +8,12 @@ HISTSIZE=1000000
 SAVEHIST=1000000
 
 PROMPT="
-%{${fg[red]}%}%~%{${reset_color}%}
+%{${fg[green]}%}%~%{${reset_color}%}
 [%n]$ "
 
 PROMPT2='[%n]>'
+
+SPROMPT="%{$fg[red]%}correct: %R -> %r [nyae]? %{$reset_color%}"
 
 autoload -Uz select-word-style
 select-word-style default
