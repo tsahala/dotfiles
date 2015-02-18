@@ -26,28 +26,28 @@ install mysql || true
 
 # MacAppのインストール
 cask install google-chrome || true
-cask install firefox-ja || true
+# cask install firefox-ja || true
 
 cask install iterm2 || true
 cask install sublime-text3 || true
-cask install macvim-kaoriya || true
+# cask install macvim-kaoriya || true
 cask install sourcetree || true
-cask install github || true
+# cask install github || true
 
 cask install google-japanese-ime || true
 cask install dropbox || true
 cask install appcleaner || true
-cask install transmit || true
+# cask install transmit || true
 
 cask install imageoptim || true
 cask install virtualbox || true
 cask install vagrant || true
 
-cask install adobe-creative-cloud || true
-cask install slicy || true
-cask install skitch || true
+# cask install adobe-creative-cloud || true
+# cask install slicy || true
+# cask install skitch || true
 
-cask install skype || true
+# cask install skype || true
 
 # クリーンアップ
 cleanup
