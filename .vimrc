@@ -30,6 +30,7 @@ set incsearch "インクリメンタルサーチ
 
 set visualbell t_vb=
 set noerrorbells "エラーメッセージの表示時にビープを鳴らさない
+set notitle "Vimを使ってくれてありがとう"
 
 set autoread "他で書き換えられたら自動で読み直す
 set nobackup "バックアップファイルを作らない
