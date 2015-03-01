@@ -1,11 +1,14 @@
-# リポジトリの追加
-tap homebrew/versions || true
-tap caskroom/cask || true
-tap caskroom/versions || true
-
 # アップデート/アップグレード
 update || true
 upgrade || true
+
+# リポジトリの追加
+tap homebrew/dupes || true
+tap homebrew/boneayard || true
+tap homebrew/versions || true
+tap caskroom/homebrew-cask || true
+tap caskroom/homebrew-versions || true
+tap josegonzalez/homebrew-php || true
 
 # パッケージのインストール
 install brew-cask || true
@@ -20,9 +23,16 @@ install rbenv || true
 install ruby-build || true
 install rbenv-gem-rehash || true
 
+install autoconf || true
+install ffmpeg || true
+install libiconv || true
+install libxml2 || true
+install libxslt || true
 install openssl || true
 
 install mysql || true
+install php55 || true
+install wp-cli || true
 
 # MacAppのインストール
 cask install google-chrome || true
