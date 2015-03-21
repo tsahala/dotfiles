@@ -5,7 +5,6 @@ upgrade || true
 # リポジトリの追加
 tap homebrew/dupes || true
 tap homebrew/boneayard || true
-tap homebrew/versions || true
 tap caskroom/homebrew-cask || true
 tap caskroom/homebrew-versions || true
 tap josegonzalez/homebrew-php || true
